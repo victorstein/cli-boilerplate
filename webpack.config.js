@@ -18,6 +18,7 @@ module.exports = {
       }
     }]
   },
+  externals: ['bufferutil', 'utf-8-validate'],
   watch: true,
   mode: 'development',
   target: 'node'
